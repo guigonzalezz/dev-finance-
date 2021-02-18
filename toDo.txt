@@ -1,0 +1,3 @@
+Exercicios 
+1 - Substituir as fun��es do Modal por uma chamada Toogle e ajustar no html
+2 - navicon substituir
