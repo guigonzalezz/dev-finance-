@@ -1,3 +1,4 @@
 Exercicios 
-1 - Substituir as fun��es do Modal por uma chamada Toogle e ajustar no html
+1 - Substituir as funções do Modal por uma chamada Toogle e ajustar no html
 2 - navicon substituir
+3 - Fazer uma forma de exibição do erro na tela
