@@ -1,5 +1,6 @@
 Exercicios 
-1 - Substituir as funções do Modal por uma chamada Toogle e ajustar no html
-2 - navicon substituir
-3 - Fazer uma forma de exibição do erro na tela
-4 - Se o total ficar negativo ficar na cor vermelha
+1 - Substituir as funções do Modal por uma chamada Toogle e ajustar no html FEITO
+2 - Colocar um Favicon FEITO
+3 - Fazer uma forma de exibição do erro na tela FEITO
+4 - Se o total ficar negativo ficar na cor vermelha FEITO
+5 - Adicionei opacidade aos cards, ao passar o mouse em cima a opacidade vira 1

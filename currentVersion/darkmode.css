@@ -1,0 +1,30 @@
+.dark-theme-body{
+    background: #363636;
+}
+
+.dark-theme-header{
+    background: #121212;
+}
+
+.card.dark-theme-card{
+    background: #484848;
+    color:white;
+}
+
+.dark-theme-nt {
+    color:rgb(255, 255, 255);
+}
+
+.dark-theme-th{
+    background: #484848;
+    color: white;
+}
+
+.dark-theme-td {
+    background: #484848;
+    color: white;
+}
+
+.dark-theme-footer {
+    color:white;
+}
