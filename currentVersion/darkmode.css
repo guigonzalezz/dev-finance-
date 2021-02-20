@@ -4,6 +4,7 @@
     --card-nt-th-td-footer-cc: white;
     --card-th-td-bg: #484848;
     --nt: white;
+    --icon :invert(100%) sepia(1%) saturate(2545%) hue-rotate(221deg) brightness(109%) contrast(101%);
 }
 
 /*SWITCH ==================================*/

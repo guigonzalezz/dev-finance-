@@ -10,7 +10,7 @@
     --light-green: #3dd705;
     --red: #e92929;
 
-    
+    --icon : invert(21%) sepia(29%) saturate(738%) hue-rotate(189deg) brightness(102%) contrast(91%);
 }
 
 
@@ -363,6 +363,30 @@ footer {
     padding: 4rem 0 2rem;
     color: var(--card-nt-th-td-footer-cc);
     opacity: 0.6;
+}
+
+#social-medias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-icons{
+    width: 20%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.icons:hover {
+    opacity: 1;
+    fill:white;
+}
+
+.icons {
+    opacity: 0.6;
+
+    filter: var(--icon); 
 }
 
 /* Responsive ================================*/
