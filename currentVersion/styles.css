@@ -372,10 +372,10 @@ footer {
 }
 
 #social-icons{
-    width: 20%;
+    width: 10em;
     display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .icons:hover {
@@ -400,5 +400,9 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2rem;
+    }
+
+    #social-icons{
+        
     }
 }
