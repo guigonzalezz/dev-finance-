@@ -84,14 +84,12 @@ const DOM = {
 
         const amount = Utils.formatCurrency(transaction.amount)
 
-        const darkClass = document.querySelector('body').classList.contains("dark-theme-body") ? "dark-theme-td" : ""
-         
 
         const html = `
-            <td class="amount ${darkClass}">${transaction.description}</td>
-            <td class="${CSSclass} ${darkClass}">${amount}</td>
-            <td class="date ${darkClass}">${transaction.date}</td>
-            <td class="${darkClass}">
+            <td class="amount ">${transaction.description}</td>
+            <td class="${CSSclass}">${amount}</td>
+            <td class="date">${transaction.date}</td>
+            <td>
                 <img onclick="Transaction.remove(${index})" id="minus-img" src="../assets/minus.svg" alt="Remover transação">
             </td>
         `
@@ -116,21 +114,6 @@ const DOM = {
 
     clearTransactions() {
         DOM.transactionsContainer.innerHTML = ""
-    },
-
-    changeTheme(){
-        document.querySelectorAll('th').forEach(elem => {
-            elem.classList.toggle('dark-theme-th')
-        })
-        document.querySelectorAll('td').forEach(elem => {
-            elem.classList.toggle('dark-theme-td')
-        })
-        document.querySelector('body').classList.toggle('dark-theme-body');
-        document.querySelector('header').classList.toggle('dark-theme-header');
-        document.getElementById('income-card').classList.toggle('dark-theme-card');
-        document.getElementById('expense-card').classList.toggle('dark-theme-card');
-        document.getElementById('new-transaction').classList.toggle('dark-theme-nt');
-        document.querySelector('footer').classList.toggle('dark-theme-footer')
     }
 }
 

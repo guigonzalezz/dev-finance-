@@ -4,10 +4,13 @@
     --header-bg: #2d4a22;
     --card-nt-th-td-footer-cc: #363f5f;
     --card-th-td-bg: #ffffff; 
+    --nt: #49aa26;
 
     --green: #49aa26;
     --light-green: #3dd705;
     --red: #e92929;
+
+    
 }
 
 
@@ -23,7 +26,11 @@ html {
 }
 
 body {
-    background: var(--body-bg);
+    background-color: var(--body-bg);
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+
     font-family: 'Poppins', sans-serif;
 }
 
@@ -56,7 +63,7 @@ h2 {
 /* Links & Buttons ================================*/
 
 a {
-    color: var(--green);
+    color: var(--nt);
     text-decoration: none;
 }
 
@@ -111,7 +118,6 @@ button:hover {
 }
 
 #switch-container{
-    border: red solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +127,10 @@ button:hover {
 /* Header ================================*/
 header {
     background: var(--header-bg);
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+
     padding: 2rem 0 13rem;
     text-align: center;
 }
@@ -143,6 +153,10 @@ header {
 /* Cards ================================*/
 .card {
     background: var(--card-th-td-bg);
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
@@ -199,6 +213,10 @@ table thead tr th:last-child, table tbody tr td:last-child {
 
 table thead th {
     background: var(--card-th-td-bg);
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+
     font-weight: normal;
     padding: 1rem 2rem;
     text-align: left;
@@ -206,6 +224,10 @@ table thead th {
 
 table tbody td {
     background: var(--card-th-td-bg);
+    -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+    
     padding: 1rem 2rem;
 }
 
@@ -280,11 +302,15 @@ td.expense {
     margin-bottom: 3rem;
 }
 
+.modal input {
+    background-color: var(--card-th-td-bg);
+    color: var(--card-nt-th-td-footer-cc);
+}
 
 .modal {
-    background: #f0f2f5;
+    background: var(--body-bg);
     padding: 2.4rem;
-    
+    color:var(--card-nt-th-td-footer-cc);
     position: relative;
     z-index:1 ;
 }
