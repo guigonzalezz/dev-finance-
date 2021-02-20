@@ -18,7 +18,15 @@
 <body>
     <header>
         <img src="../assets/logo.svg" alt="logo dev finance">
-        <button id="dark-mode-button"type="button" onclick="DOM.changeTheme()" ></button>
+        <div id="switch-container">
+            <button id="switch-shadow" type="button"  onclick="DOM.changeTheme()" ></button>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+          </label>
+        </div>
     </header>
 
     <main class ="container">
@@ -109,7 +117,7 @@
         </div>
     </div>
 
-    <footer class="dark-theme-footer">
+    <footer class="">
         <p>2021 - dev.finance$</p>
     </footer>
 

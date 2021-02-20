@@ -1,10 +1,16 @@
 /* Global ================================*/
 :root {
-    --dark-blue: #363f5f;
+    --body-bg: #f0f2f5;
+    --header-bg: #2d4a22;
+    --card-nt-th-td-footer-cc: #363f5f;
+    --card-th-td-bg: #ffffff; 
+
     --green: #49aa26;
     --light-green: #3dd705;
     --red: #e92929;
 }
+
+
 
 * {
     margin: 0;
@@ -17,7 +23,7 @@ html {
 }
 
 body {
-    background: #f0f2f5;
+    background: var(--body-bg);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -100,9 +106,21 @@ button:hover {
     margin-left: 20%;
 }
 
+#minus-img:hover{
+    cursor: pointer;
+}
+
+#switch-container{
+    border: red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
 /* Header ================================*/
 header {
-    background: #2d4a22;
+    background: var(--header-bg);
     padding: 2rem 0 13rem;
     text-align: center;
 }
@@ -124,13 +142,13 @@ header {
 }
 /* Cards ================================*/
 .card {
-    background: white;
+    background: var(--card-th-td-bg);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
     margin-bottom: 3rem;
     opacity: 0.98;
-    color: var(--dark-blue);
+    color: var(--card-nt-th-td-footer-cc);
 }
 
 .card:hover { 
@@ -180,14 +198,14 @@ table thead tr th:last-child, table tbody tr td:last-child {
 }
 
 table thead th {
-    background: white;
+    background: var(--card-th-td-bg);
     font-weight: normal;
     padding: 1rem 2rem;
     text-align: left;
 }
 
 table tbody td {
-    background: white;
+    background: var(--card-th-td-bg);
     padding: 1rem 2rem;
 }
 
@@ -200,7 +218,7 @@ table tbody tr:hover{
 }
 
 td.description {
-    color: var(--dark-blue);
+    color: var(--card-nt-th-td-footer-cc);
 }
 
 td.income {
@@ -317,7 +335,7 @@ input {
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: var(--dark-blue);
+    color: var(--card-nt-th-td-footer-cc);
     opacity: 0.6;
 }
 

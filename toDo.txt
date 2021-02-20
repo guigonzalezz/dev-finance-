@@ -3,4 +3,6 @@ Exercicios
 2 - Colocar um Favicon FEITO
 3 - Fazer uma forma de exibição do erro na tela FEITO
 4 - Se o total ficar negativo ficar na cor vermelha FEITO
-5 - Adicionei opacidade aos cards, ao passar o mouse em cima a opacidade vira 1
+5 - Adicionei opacidade aos cards, ao passar o mouse em cima a opacidade vira 1 FEITO
+6 - Darkmode
+7 - Filtro

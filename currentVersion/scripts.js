@@ -8,6 +8,18 @@ const Modal = {
     }
 }
 
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
 
 const Storage = {
     get() {
@@ -80,7 +92,7 @@ const DOM = {
             <td class="${CSSclass} ${darkClass}">${amount}</td>
             <td class="date ${darkClass}">${transaction.date}</td>
             <td class="${darkClass}">
-                <img onclick="Transaction.remove(${index})" src="../assets/minus.svg" alt="Remover transação">
+                <img onclick="Transaction.remove(${index})" id="minus-img" src="../assets/minus.svg" alt="Remover transação">
             </td>
         `
         return html
