@@ -8,26 +8,37 @@ const Modal = {
     }
 }
 
-const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
+const DarkTheme = {
+    toggleSwitch : document.querySelector('.theme-switch input[type="checkbox"]'),
+    switchTheme(e) {
+        if (e.target.checked) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('theme', 'dark');
+        }
+        else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+        } 
     }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }    
 }
 
-toggleSwitch.addEventListener('change', switchTheme, false);
-
 const Storage = {
+    currentTheme : localStorage.getItem('theme') ? localStorage.getItem('theme') : null,
+    
     get() {
         return JSON.parse(localStorage.getItem('dev.finances:transactions')) || []
     },
 
     set(transactions) {
-        localStorage.setItem("dev.finances:transactions",JSON.stringify(transactions))
+        localStorage.setItem("dev.finances:transactions",JSON.stringify(transactions));
+        
+        if (Storage.currentTheme) {
+            document.documentElement.setAttribute('data-theme', Storage.currentTheme);
+        
+            if (Storage.currentTheme === 'dark') {
+                DarkTheme.toggleSwitch.checked = true;
+            }
+        }
     }
 }
 
@@ -216,3 +227,6 @@ const App = {
 }
 
 App.init();
+
+/*Event Listeners ================= */
+DarkTheme.toggleSwitch.addEventListener('change', DarkTheme.switchTheme, false);
