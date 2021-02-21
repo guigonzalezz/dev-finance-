@@ -118,9 +118,11 @@ const DOM = {
         const total = Transaction.total()
         if(total < 0){
             document.querySelector('.card.total').style.background = "#e92929";
+            document.querySelector('.card.total').style.color = "#ffffff";
         }
         else{
             document.querySelector('.card.total').style.background = "#49aa26";
+            document.querySelector('.card.total').style.color = "#ffffff";
         }
     },
 
