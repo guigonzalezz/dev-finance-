@@ -25,7 +25,7 @@
   
   .slider {
     background-repeat: no-repeat;
-    background-image: url("../assets/sun.png");
+    background-image: url("./assets/sun.png");
     background-position-x: 3.8vh;
     background-position-y: 0.5vh;
 
@@ -54,7 +54,7 @@
 
   input:checked + .slider {
     background-repeat: no-repeat;
-    background-image: url("../assets/moon.png");
+    background-image: url("./assets/moon.png");
     background-position-x: 0.4vh;
     background-position-y: 0.5vh;
 
