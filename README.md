@@ -1,6 +1,8 @@
 # :rocket: Maratona-Discover - dev.finance$
 Site para controle de finanças simples.
 
+Clique [AQUI](https://maratona-discover-ruddy.vercel.app) para testar o projeto.
+
 ## :pencil: Summary
 Projeto foi desenvolvido em conjunto da maratona discover da [Rocketseat](https://rocketseat.com.br) com o grande instrutor [Mayk Brito](https://github.com/maykbrito), o proposito real do projeto era botar em práticas as ideias básicas de HTML, CSS e Javascript e ter um contato de forma agradavél com essas linguagens, em conjunto do desenvolvimento deste projeto foi concluido as aulas do [Discover](https://app.rocketseat.com.br/discover) para aprofundar meus conhecimentos. Acredito que está experiencia tenha sido de suma importancia em minha trajetória de aprendizado pois me senti cativado em estudar mais e conhecer melhor sobre esta área de desenvolvimento web. Gostaria de prestar meus agradecimentos ao Mayk Brito por todo seu trabalho para a comunidade, e que possamos ver mais contéudos incriveis como este no futuro. :tada::tada:
 
