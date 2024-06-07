@@ -1,33 +1,33 @@
 # :rocket: Maratona-Discover - dev.finance$
-Site para controle de finanças simples.
+Website for simple finance management.
 
-Clique [AQUI](https://maratona-discover-ruddy.vercel.app) para testar o projeto.
+Click [HERE](https://maratona-discover-ruddy.vercel.app) to test the project.
 
 ## :pencil: Summary
-Projeto foi desenvolvido em conjunto da maratona discover da [Rocketseat](https://rocketseat.com.br) com o grande instrutor [Mayk Brito](https://github.com/maykbrito), o proposito real do projeto era botar em práticas as ideias básicas de HTML, CSS e Javascript e ter um contato de forma agradavél com essas linguagens, em conjunto do desenvolvimento deste projeto foi concluido as aulas do [Discover](https://app.rocketseat.com.br/discover) para aprofundar meus conhecimentos. Acredito que está experiencia tenha sido de suma importancia em minha trajetória de aprendizado pois me senti cativado em estudar mais e conhecer melhor sobre esta área de desenvolvimento web. Gostaria de prestar meus agradecimentos ao Mayk Brito por todo seu trabalho para a comunidade, e que possamos ver mais contéudos incriveis como este no futuro. :tada::tada:
+The project was developed in conjunction with Rocketseat's [Maratona Discover](https://rocketseat.com.br) with the great instructor [Mayk Brito](https://github.com/maykbrito). The real purpose of the project was to put into practice the basic ideas of HTML, CSS, and Javascript and have a pleasant contact with these languages. Along with the development of this project, I completed the [Discover](https://app.rocketseat.com.br/discover) classes to deepen my knowledge. I believe this experience has been of utmost importance in my learning journey as I felt motivated to study more and learn more about this area of web development. I would like to express my thanks to Mayk Brito for all his work for the community, and may we see more incredible content like this in the future. :tada::tada:
 
 
-### :computer: Tecnologias Utilizadas
+### :computer: Technologies Used
 
 - **HTML** 
 - **CSS**
 - **Javascript**
 
 
-### :sparkles:Melhorias
-- [x] Ajuste na função modal para utilização da função toogle()
-- [X] Favicon adicionado ao projeto
-- [x] Modal de exibição do erro de campos não preenchidos
-- [X] Ajuste de cor no card caso o total fique negativo(negativo = vermelho, positivo = verde)
-- [X] Efeito de opacidade nos cards (incomes, expenses, total)
-- [x] Tema escuro
-- [X] Icones para as redes sociais 
+### :sparkles: Improvements
+- [x] Adjustment in modal function to use the toogle() function
+- [X] Favicon added to the project
+- [x] Modal displaying error for unfilled fields
+- [X] Color adjustment in the card if the total becomes negative (negative = red, positive = green)
+- [X] Opacity effect on cards (incomes, expenses, total)
+- [x] Dark theme
+- [X] Icons for social networks 
 
 
 <br>
 <br>
 <br>
 
-> Se algo é importante o suficiente, você deve tentar.<br>
->  Mesmo se o resultado provável for o fracasso.<br>
+> If something is important enough, you should try it.<br>
+> Even if the probable result is failure.<br>
 >                               - Elon Musk
